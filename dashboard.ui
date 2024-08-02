@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dashboard</class>
+ <widget class="QMainWindow" name="dashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1319</width>
+    <height>890</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dashboard</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="upload_btn">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>20</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Upload</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>801</width>
+      <height>871</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rotate_left_btn">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>100</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rotate Left</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rotate_right_btn">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>100</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rotate Right</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zoom_in_btn">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>170</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zoom In</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zoom_out_btn">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>170</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zoom Out</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
