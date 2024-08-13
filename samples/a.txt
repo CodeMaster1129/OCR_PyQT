@@ -1,0 +1,6 @@
+
+Hi, just want to follow-up on the update.
+Please do consider to have a multi user of the application as part of the security features. (max 3)
+1. Admin (Add/Delete user, delete transaction, reset-password)
+2. Regular User (All except to add user, delete transaction)
+Also, a back-up features for both files copy and database.
