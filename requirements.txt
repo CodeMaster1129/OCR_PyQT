@@ -1,0 +1,5 @@
+paddleocr
+fitz
+paddle
+PyQt5
+frontend
